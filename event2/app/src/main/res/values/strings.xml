@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">event2</string>
+    <string name="result" />
+    <string name="number_2" />
+    <string name="number_1" />
+    <string name="number1">number1</string>
+    <string name="number2">number2</string>
+    <string name="Result">RESULT</string>
+</resources>

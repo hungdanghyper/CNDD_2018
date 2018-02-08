@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">eventClick</string>
+    <string name="input_number_a">Input Number A</string>
+    <string name="input_number_b">Input Number B</string>
+    <string name="activity">Activity</string>
+    <string name="result">RESULT</string>
+</resources>
