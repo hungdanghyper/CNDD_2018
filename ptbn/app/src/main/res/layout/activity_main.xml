@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dangb.ptbacnhat.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:text="@string/gi_i_ph_ng_tr_nh_b_c_nh_t"
+        android:background="@color/green"
+        android:textSize="25sp"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView"
+        android:text="@string/nhap_so_a"
+        android:textSize="20sp"
+        android:paddingLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView2" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_toRightOf="@+id/textView2" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/editText"
+        android:text="@string/nhap_so_b"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:paddingLeft="15dp"
+        android:id="@+id/textView3" />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText"
+        android:layout_toRightOf="@+id/textView3" />
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kq"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="@color/red"
+        android:padding="15dp"
+        android:layout_below="@id/editText2"
+        android:textAlignment="center"/>
+
+</RelativeLayout>
+

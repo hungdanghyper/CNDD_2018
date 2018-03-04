@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">phuongtrinhb2</string>
+    <string name="nhap_so_a">Nhap so a:</string>
+    <string name="gi_i_ph_ng_tr_nh_b_c_nh_t">Giải Phương Trình Bậc Nhất</string>
+    <string name="nhap_so_b">Nhap so b:</string>
+    <string name="k_t_q_a">Kết Qủa</string>
+    <string name="kq">KẾT QUẢ</string>
+    <string name="k_t_qu_gi_i_ph_ng_tr_nh">Kết quả giải phương trình</string>
+    <string name="b">BACK</string>
+</resources>

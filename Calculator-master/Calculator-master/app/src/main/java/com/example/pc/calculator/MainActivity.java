@@ -104,7 +104,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 nhap.append("0");
                 break;
             case R.id.btn1:
-                nhap.append("1");
                 break;
             case R.id.btn2:
                 nhap.append("2");
@@ -116,6 +115,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 nhap.append("4");
                 break;
             case R.id.btn5:
+                nhap.append("1");
                 nhap.append("5");
                 break;
             case R.id.btn6:

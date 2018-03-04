@@ -31,14 +31,14 @@ public class ActivityInput extends AppCompatActivity {
         btnStartActivity.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if(!TextUtils.isEmpty(editTextA.getText().toString())&&!TextUtils.isEmpty(editTextB.getText().toString())){
+
                     int numberA = Integer.parseInt(editTextA.getText().toString());
                     int numberB = Integer.parseInt(editTextB.getText().toString());
                     Intent intent = new Intent(ActivityInput.this,ActivityOutput.class);
                     intent.putExtra(NUMBER_A,numberA);
                     intent.putExtra(NUMBER_B,numberB);
                     startActivityForResult(intent,REQUEST_CODE);
-                }
+
             }
         });
     }
